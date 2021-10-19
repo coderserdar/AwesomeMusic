@@ -1,0 +1,72 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="AwesomeMusic.AlbumPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True" Loaded="PhoneApplicationPage_Loaded" BackKeyPress="PhoneApplicationPage_BackKeyPress">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <phone:Pivot Name="pvArtist" Title="General Settings" FontSize="35" >
+
+            <!--Pivot item one-->
+            <phone:PivotItem Name="piAlbumName" Header="Album Name" FontSize="35">
+                <StackPanel Name="spAlbumName">
+                    <TextBox Name="txtAlbumName" TextWrapping="Wrap" InputScope="Text" KeyDown="txtAlbumName_KeyDown"></TextBox>
+                </StackPanel>
+            </phone:PivotItem>
+
+            <!--Pivot item one-->
+            <phone:PivotItem Name="piReleaseYear" Header="Release Year" FontSize="35">
+                <StackPanel Name="spReleaseYear">
+                    <TextBox Name="txtReleaseYear" TextWrapping="Wrap" InputScope="Number" KeyDown="txtReleaseYear_KeyDown"></TextBox>
+                </StackPanel>
+            </phone:PivotItem>
+
+            <phone:PivotItem Name="piSongCount" Header="Song Count" FontSize="35">
+                <StackPanel Name="spSongCount">
+                    <TextBox Name="txtSongCount" TextWrapping="Wrap" InputScope="Number" KeyDown="txtSongCount_KeyDown"></TextBox>
+                </StackPanel>
+            </phone:PivotItem>
+
+
+            <phone:PivotItem Name="piLabelName" Header="Label Name" FontSize="35">
+                <StackPanel Name="spLabelName">
+                    <TextBox Name="txtLabelName" TextWrapping="Wrap" InputScope="Text" KeyDown="txtLabelName_KeyDown"></TextBox>
+                </StackPanel>
+            </phone:PivotItem>
+
+            <phone:PivotItem Name="piBestSong" Header="Best Song" FontSize="35">
+                <StackPanel Name="spBestSong">
+                    <TextBox Name="txtBestSong" TextWrapping="Wrap" InputScope="Text" KeyDown="txtBestSong_KeyDown"></TextBox>
+                </StackPanel>
+            </phone:PivotItem>
+
+            <phone:PivotItem Name="piRating" Header="Rating" FontSize="35">
+                <StackPanel Name="spRating">
+                    <toolkit:Rating Name="rtRating" KeyDown="rtRating_KeyDown" ValueChanged="rtRating_ValueChanged" Tap="rtRating_Tap" RatingItemCount="10" Margin="1" VerticalContentAlignment="Stretch" Width="Auto"/>
+                    <Button Name="btnIncrease" Content="+" Width="Auto" Click="btnIncrease_Click"></Button>
+                    <Button Name="btnDecrease" Content="-" Width="Auto" Click="btnDecrease_Click"></Button>
+                </StackPanel>
+            </phone:PivotItem>
+
+            <!--Pivot item three-->
+            <phone:PivotItem Name="piComment" Header="Comment">
+                <ScrollViewer x:Name="svAlbumComment" GotFocus="svAlbumComment_GotFocus" Height="Auto">
+                    <TextBox x:Name="txtAlbumComment" Padding="0,0,0,400" VerticalScrollBarVisibility="Visible" TextWrapping="Wrap" Text="" InputScope="Text" AcceptsReturn="True" TextChanged="txtAlbumComment_TextChanged" GotFocus="txtAlbumComment_GotFocus" Tap="txtAlbumComment_Tap" KeyDown="txtAlbumComment_KeyDown" LostFocus="txtAlbumComment_LostFocus" />
+                </ScrollViewer>
+            </phone:PivotItem>
+        </phone:Pivot>
+        <Grid x:Name="pnlKeyboardPlaceHolder" Grid.Row="2" Visibility="Collapsed">
+        </Grid>
+    </Grid>
+</phone:PhoneApplicationPage>

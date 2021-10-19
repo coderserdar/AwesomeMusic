@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>RightToLeft</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ar</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>حول</value>
+  </data>
+  <data name="AddCategory" xml:space="preserve">
+    <value>إضافة الفئة</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="CategoryAddSuccess" xml:space="preserve">
+    <value>فئة تمت إضافة بنجاح</value>
+  </data>
+  <data name="CategoryExists" xml:space="preserve">
+    <value>هذا التصنيف لديه موجود بالفعل</value>
+  </data>
+  <data name="EnterCategoryName" xml:space="preserve">
+    <value>إدخال اسم التصنيف</value>
+  </data>
+  <data name="ExitApp" xml:space="preserve">
+    <value>خروج التطبيقات</value>
+  </data>
+  <data name="ExitAppQuestion" xml:space="preserve">
+    <value>هل تريد الخروج التطبيقات؟</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>طيب</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>البحث</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>إعدادات</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>فئات</value>
+  </data>
+  <data name="AddArtist" xml:space="preserve">
+    <value>إضافة الفنان</value>
+  </data>
+  <data name="ArtistAddSuccess" xml:space="preserve">
+    <value>الفنان تمت إضافة بنجاح</value>
+  </data>
+  <data name="ArtistExists" xml:space="preserve">
+    <value>هذا الفنان لديه موجود بالفعل</value>
+  </data>
+  <data name="ArtistList" xml:space="preserve">
+    <value>قائمة فنان</value>
+  </data>
+  <data name="CategoryDeleteSuccess" xml:space="preserve">
+    <value>فئة تمت إزالة بنجاح</value>
+  </data>
+  <data name="CategoryNameChangeSuccess" xml:space="preserve">
+    <value>اسم التصنيف تم تغيير بنجاح</value>
+  </data>
+  <data name="CategorySettings" xml:space="preserve">
+    <value>فئة إعدادات</value>
+  </data>
+  <data name="DeleteCategory" xml:space="preserve">
+    <value>حذف الفئة</value>
+  </data>
+  <data name="DeleteCategoryQuestion" xml:space="preserve">
+    <value>هل حذف الفئة مع جميع المحتويات. هل توافق؟</value>
+  </data>
+  <data name="EnterArtistName" xml:space="preserve">
+    <value>أدخل اسم الفنان</value>
+  </data>
+  <data name="Arabic" xml:space="preserve">
+    <value>العربية</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>الصينية</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>الإنجليزية</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>الفرنسية</value>
+  </data>
+  <data name="German" xml:space="preserve">
+    <value>الألمانية</value>
+  </data>
+  <data name="Italian" xml:space="preserve">
+    <value>الإيطالية</value>
+  </data>
+  <data name="LanguageWarning" xml:space="preserve">
+    <value>قد يكون لإعادة تشغيل التطبيق لتغيير تأثير</value>
+  </data>
+  <data name="Persian" xml:space="preserve">
+    <value>الفارسي</value>
+  </data>
+  <data name="Portuguese" xml:space="preserve">
+    <value>البرتغالية</value>
+  </data>
+  <data name="Russian" xml:space="preserve">
+    <value>الروسية</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>اختر اللغة</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>الأسبانية</value>
+  </data>
+  <data name="Turkish" xml:space="preserve">
+    <value>التركية</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>تصاعدي</value>
+  </data>
+  <data name="ArtistName" xml:space="preserve">
+    <value>اسم الفنان</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>لون الخلفية</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>الأسود</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>الأزرق</value>
+  </data>
+  <data name="AlbumComment" xml:space="preserve">
+    <value>ألبوم تعليق</value>
+  </data>
+  <data name="AlbumCount" xml:space="preserve">
+    <value>عدد الألبومات</value>
+  </data>
+  <data name="AlbumName" xml:space="preserve">
+    <value>اسم الألبوم</value>
+  </data>
+  <data name="Brown" xml:space="preserve">
+    <value>البني</value>
+  </data>
+  <data name="CategoryName" xml:space="preserve">
+    <value>اسم التصنيف</value>
+  </data>
+  <data name="CategoryOrderBy" xml:space="preserve">
+    <value>فئة الترتيب حسب</value>
+  </data>
+  <data name="CategoryOrderStyle" xml:space="preserve">
+    <value>فئة ترتيب ستايل</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>تاريخ الأنشاء</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>تنازلي</value>
+  </data>
+  <data name="FinishDate" xml:space="preserve">
+    <value>الانتهاء من التسجيل</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>الرمادي</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>الأخضر</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="ModificationDate" xml:space="preserve">
+    <value>اخر تعديل التسجيل</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>اسم</value>
+  </data>
+  <data name="OneDriveSyncCompleted" xml:space="preserve">
+    <value>OneDrive تزامن الانتهاء</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>البرتقال</value>
+  </data>
+  <data name="ReleaseYear" xml:space="preserve">
+    <value>سنة الإصدار</value>
+  </data>
+  <data name="LabelName" xml:space="preserve">
+    <value>اسم التسمية</value>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>الأرجواني</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>الأحمر</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>اختيار</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>بدء التسجيل</value>
+  </data>
+  <data name="SystemFault" xml:space="preserve">
+    <value>النظام لديه خطأ. يرجى المحاولة لاحقا</value>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>الأصفر</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>الخلفية</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>صورة الخلفية</value>
+  </data>
+  <data name="BackgroundImageChangeSuccess" xml:space="preserve">
+    <value>صورة الخلفية تم تغيير بنجاح</value>
+  </data>
+  <data name="BackgroundImageRemoveSuccess" xml:space="preserve">
+    <value>صورة الخلفية تمت إزالة بنجاح</value>
+  </data>
+  <data name="OneDrive" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="OtherSettings" xml:space="preserve">
+    <value>إعدادات أخرى</value>
+  </data>
+  <data name="RemoveBackgroundImage" xml:space="preserve">
+    <value>إزالة صورة الخلفية</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>حدد</value>
+  </data>
+  <data name="Sync" xml:space="preserve">
+    <value>المزامنة</value>
+  </data>
+  <data name="Synchronizing" xml:space="preserve">
+    <value>مزامنة</value>
+  </data>
+  <data name="BackgroundColorChangeSuccess" xml:space="preserve">
+    <value>لون الخلفية تم تغيير بنجاح</value>
+  </data>
+  <data name="GeneralSettings" xml:space="preserve">
+    <value>الإعدادات العامة</value>
+  </data>
+  <data name="SelectBackgroundColor" xml:space="preserve">
+    <value>حدد لون الخلفية</value>
+  </data>
+  <data name="ArtistOrderBy" xml:space="preserve">
+    <value>الفنان الترتيب حسب</value>
+  </data>
+  <data name="ArtistOrderTypeChangeSuccess" xml:space="preserve">
+    <value>الفنان بالدفع نوع تم تغيير بنجاح</value>
+  </data>
+  <data name="ArtistSettings" xml:space="preserve">
+    <value>إعدادات الفنان</value>
+  </data>
+  <data name="AlbumOrderBy" xml:space="preserve">
+    <value>ألبوم الترتيب حسب</value>
+  </data>
+  <data name="AlbumOrderTypeChangeSuccess" xml:space="preserve">
+    <value>ألبوم نوع الأمر تم تغيير بنجاح</value>
+  </data>
+  <data name="CategoryOrderTypeChangeSuccess" xml:space="preserve">
+    <value>فئة ترتيب نوع تم تغيير بنجاح</value>
+  </data>
+  <data name="ArtistOrderStyle" xml:space="preserve">
+    <value>الفنان بالدفع ستايل</value>
+  </data>
+  <data name="ArtistOrderStyleChangeSuccess" xml:space="preserve">
+    <value>الفنان بالدفع نمط تم تغيير بنجاح</value>
+  </data>
+  <data name="AlbumOrderStyle" xml:space="preserve">
+    <value>ألبوم بالدفع ستايل</value>
+  </data>
+  <data name="AlbumOrderStyleChangeSuccess" xml:space="preserve">
+    <value>ألبوم بالدفع نمط تم تغيير بنجاح</value>
+  </data>
+  <data name="CategoryOrderStyleChangeSuccess" xml:space="preserve">
+    <value>فئة ترتيب نمط تم تغيير بنجاح</value>
+  </data>
+  <data name="AddAlbum" xml:space="preserve">
+    <value>البوم جديد</value>
+  </data>
+  <data name="ArtistDeleteSuccess" xml:space="preserve">
+    <value>الفنان تمت إزالة بنجاح</value>
+  </data>
+  <data name="ArtistNameChangeSuccess" xml:space="preserve">
+    <value>اسم الفنان تم تغيير بنجاح</value>
+  </data>
+  <data name="AlbumList" xml:space="preserve">
+    <value>قائمة الألبومات</value>
+  </data>
+  <data name="DeleteArtist" xml:space="preserve">
+    <value>حذف الفنان</value>
+  </data>
+  <data name="DeleteArtistQuestion" xml:space="preserve">
+    <value>هل حذف الفنان مع جميع المحتويات. هل أنت متأكد؟</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>الخط</value>
+  </data>
+  <data name="FontFamily" xml:space="preserve">
+    <value>عائلة الخط</value>
+  </data>
+  <data name="FontFamilyChangeSuccess" xml:space="preserve">
+    <value>عائلة الخط تم تغيير بنجاح</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>حجم الخط</value>
+  </data>
+  <data name="FontSizeChangeSuccess" xml:space="preserve">
+    <value>حجم الخط تم تغيير بنجاح</value>
+  </data>
+  <data name="SelectFontFamily" xml:space="preserve">
+    <value>حدد عائلة الخط</value>
+  </data>
+  <data name="SelectFontSize" xml:space="preserve">
+    <value>تحديد حجم الخط</value>
+  </data>
+  <data name="AlbumRating" xml:space="preserve">
+    <value>ألبوم التصويت</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="SendWithApp" xml:space="preserve">
+    <value>إرسال رهيبة مع التطبيق الموسيقى</value>
+  </data>
+  <data name="SendWithMail" xml:space="preserve">
+    <value>ترسل مع البريد</value>
+  </data>
+  <data name="SendWithSMS" xml:space="preserve">
+    <value>مع إرسال SMS</value>
+  </data>
+  <data name="ShareAlbum" xml:space="preserve">
+    <value>شارك بهذا الالبوم</value>
+  </data>
+  <data name="AlbumSaveSuccess" xml:space="preserve">
+    <value>الألبوم تم حفظ بنجاح</value>
+  </data>
+  <data name="AlbumNameMustBe" xml:space="preserve">
+    <value>لديك لإدخال اسم الألبوم على الأقل</value>
+  </data>
+  <data name="AlbumDeleteSuccess" xml:space="preserve">
+    <value>ألبوم تمت إزالة بنجاح</value>
+  </data>
+  <data name="DeleteAlbum" xml:space="preserve">
+    <value>حذف الألبوم</value>
+  </data>
+  <data name="DeleteAlbumQuestion" xml:space="preserve">
+    <value>هل حذف هذا الألبوم. هل أنت متأكد؟</value>
+  </data>
+  <data name="AboutTheApp" xml:space="preserve">
+    <value>نبذة عن التطبيقات</value>
+  </data>
+  <data name="AboutTheAppText" xml:space="preserve">
+    <value>مرحبا. أحب الاستماع الألبوم كثيرا. وبعد رهيبة مكتبة التطبيق، أنا قررت إنشاء التطبيق الذي له خصائص مشابهة مثل مذراة. يمكنك إضافة فئات، إضافة الفنانين وإضافة الألبومات على ذلك. يمكنك إرسال معلومات من ألبوماتك عبر الرسائل القصيرة والبريد الإلكتروني ومشاركة وسائل الإعلام الاجتماعية (مثل الفيسبوك وغيرها). آمل أنك لن ترغب في هذا التطبيق. إذا تقيم التطبيق وإرسال اقتراحاتكم إلى السوق وcoderserdar@outlook.com وسوف أقدر ذلك لك. مع أطيب تحياتي. برامج CMS.</value>
+  </data>
+  <data name="AboutTheAwesomeMusic" xml:space="preserve">
+    <value>حول الموسيقى رهيبة</value>
+  </data>
+  <data name="ContactWithUs" xml:space="preserve">
+    <value>الاتصال معنا</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>معدل</value>
+  </data>
+  <data name="SearchCompleted" xml:space="preserve">
+    <value>البحث الانتهاء</value>
+  </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value>نتائج البحث</value>
+  </data>
+  <data name="SearchTrimFault" xml:space="preserve">
+    <value>لديك لملء معايير البحث</value>
+  </data>
+  <data name="ArtistAlreadySameCategory" xml:space="preserve">
+    <value>فنان لديه بالفعل هذه الفئة</value>
+  </data>
+  <data name="ArtistCategoryAddSuccess" xml:space="preserve">
+    <value>فئة قد أضيفت إلى الفنان بنجاح</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>إعادة تعيين إعدادات</value>
+  </data>
+  <data name="SuccessfulResetSettings" xml:space="preserve">
+    <value>إعدادات الخلفية تم إعادة تعيين بنجاح</value>
+  </data>
+  <data name="SyncOnOneFile" xml:space="preserve">
+    <value>مزامنة كل واحد في الملف</value>
+  </data>
+  <data name="MostListenArtist" xml:space="preserve">
+    <value>الفنان كنت في أشد الاستماع</value>
+  </data>
+  <data name="MostListenCategory" xml:space="preserve">
+    <value>فئة هل من الاستماع</value>
+  </data>
+  <data name="MostListenLabel" xml:space="preserve">
+    <value>التسمية التي معظم الاستماع</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>إحصاءات</value>
+  </data>
+  <data name="TotalAlbumCount" xml:space="preserve">
+    <value>ألبوم عدد يمكنك الاستماع</value>
+  </data>
+  <data name="Japanese" xml:space="preserve">
+    <value>اليابانية</value>
+  </data>
+  <data name="BestAlbum" xml:space="preserve">
+    <value>أفضل الألبومات</value>
+  </data>
+  <data name="WorstAlbum" xml:space="preserve">
+    <value>أسوأ الألبوم</value>
+  </data>
+  <data name="BestSong" xml:space="preserve">
+    <value>أفضل أغنية</value>
+  </data>
+  <data name="SongCount" xml:space="preserve">
+    <value>عدد أغنية</value>
+  </data>
+  <data name="Sanskrit" xml:space="preserve">
+    <value>سنسكريتي</value>
+  </data>
+  <data name="Thai" xml:space="preserve">
+    <value>التايلاندية</value>
+  </data>
+</root>

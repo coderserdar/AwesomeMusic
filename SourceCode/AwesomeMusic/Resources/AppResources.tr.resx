@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>tr</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="AddCategory" xml:space="preserve">
+    <value>Kategori Ekle</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="CategoryAddSuccess" xml:space="preserve">
+    <value>Kategori Başarıyla Eklendi</value>
+  </data>
+  <data name="CategoryExists" xml:space="preserve">
+    <value>Bu Kategori Zaten Mevcut</value>
+  </data>
+  <data name="EnterCategoryName" xml:space="preserve">
+    <value>Kategori Adı Giriniz</value>
+  </data>
+  <data name="ExitApp" xml:space="preserve">
+    <value>Uygulamadan Çık</value>
+  </data>
+  <data name="ExitAppQuestion" xml:space="preserve">
+    <value>Uygulamadan Çıkmak İstediğinize Emin Misiniz?</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Arama</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Kategoriler</value>
+  </data>
+  <data name="AddArtist" xml:space="preserve">
+    <value>Sanatçi Ekle</value>
+  </data>
+  <data name="ArtistAddSuccess" xml:space="preserve">
+    <value>Sanatçı Başarıyla Eklendi</value>
+  </data>
+  <data name="ArtistExists" xml:space="preserve">
+    <value>Bu Sanatçı Zaten Mevcut</value>
+  </data>
+  <data name="ArtistList" xml:space="preserve">
+    <value>Sanatçı Listesi</value>
+  </data>
+  <data name="CategoryDeleteSuccess" xml:space="preserve">
+    <value>Kategori Başarıyla Silindi</value>
+  </data>
+  <data name="CategoryNameChangeSuccess" xml:space="preserve">
+    <value>Kategori Adı Başarıyla Değiştirildi</value>
+  </data>
+  <data name="CategorySettings" xml:space="preserve">
+    <value>Kategori Ayarları</value>
+  </data>
+  <data name="DeleteCategory" xml:space="preserve">
+    <value>Kategori Sil</value>
+  </data>
+  <data name="DeleteCategoryQuestion" xml:space="preserve">
+    <value>Kategoriyi Bütün İçeriği İle Birlikte Silmek İstediğinize Emin Misiniz?</value>
+  </data>
+  <data name="EnterArtistName" xml:space="preserve">
+    <value>Sanatçı Adı Giriniz</value>
+  </data>
+  <data name="Arabic" xml:space="preserve">
+    <value>Arapça</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>Çince</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>İngilizce</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>Fransızca</value>
+  </data>
+  <data name="German" xml:space="preserve">
+    <value>Almanca</value>
+  </data>
+  <data name="Italian" xml:space="preserve">
+    <value>İtalyanca</value>
+  </data>
+  <data name="LanguageWarning" xml:space="preserve">
+    <value>Ayarların Etkili Olması İçin Uygulamayı Baştan Başlatmanız Gerekebilir.</value>
+  </data>
+  <data name="Persian" xml:space="preserve">
+    <value>Farsça</value>
+  </data>
+  <data name="Portuguese" xml:space="preserve">
+    <value>Portekizce</value>
+  </data>
+  <data name="Russian" xml:space="preserve">
+    <value>Rusça</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Dil Seçiniz</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>İspanyolca</value>
+  </data>
+  <data name="Turkish" xml:space="preserve">
+    <value>Türkçe</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>Artan</value>
+  </data>
+  <data name="ArtistName" xml:space="preserve">
+    <value>Sanatçı Adı</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>Arka Plan Rengi</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Siyah</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>Mavi</value>
+  </data>
+  <data name="AlbumComment" xml:space="preserve">
+    <value>Albüm Hakkındaki Yorum</value>
+  </data>
+  <data name="AlbumCount" xml:space="preserve">
+    <value>Albüm Sayısı</value>
+  </data>
+  <data name="AlbumName" xml:space="preserve">
+    <value>Albüm Adı</value>
+  </data>
+  <data name="Brown" xml:space="preserve">
+    <value>Kahverengi</value>
+  </data>
+  <data name="CategoryName" xml:space="preserve">
+    <value>Kategori Adı</value>
+  </data>
+  <data name="CategoryOrderBy" xml:space="preserve">
+    <value>Kategori Sıralama Türü</value>
+  </data>
+  <data name="CategoryOrderStyle" xml:space="preserve">
+    <value>Kategori Sıralama Şekli</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Oluşturulma Tarihi</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>Azalan</value>
+  </data>
+  <data name="FinishDate" xml:space="preserve">
+    <value>Bitirme Tarihi</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>Gri</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Yeşil</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="ModificationDate" xml:space="preserve">
+    <value>Son Değiştirilme Tarihi</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>İsim</value>
+  </data>
+  <data name="OneDriveSyncCompleted" xml:space="preserve">
+    <value>OneDrive Senkronizasyonu Tamamlandı</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Turuncu</value>
+  </data>
+  <data name="ReleaseYear" xml:space="preserve">
+    <value>Yayınlanma Tarihi</value>
+  </data>
+  <data name="LabelName" xml:space="preserve">
+    <value>Şirket Adı</value>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>Mor</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Kırmızı</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>Seçilen</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Başlangıç Tarihi</value>
+  </data>
+  <data name="SystemFault" xml:space="preserve">
+    <value>Sistemde Bir Hata Oluştu. Lütfen Daha Sonra Tekrar Deneyin</value>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>Sarı</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>Arka Plan</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>Arka Plan Resmi</value>
+  </data>
+  <data name="BackgroundImageChangeSuccess" xml:space="preserve">
+    <value>Arka Plan Resmi Başarıyla Değiştirildi</value>
+  </data>
+  <data name="BackgroundImageRemoveSuccess" xml:space="preserve">
+    <value>Arka Plan Resmi Başarıyla Kaldırıldı</value>
+  </data>
+  <data name="OneDrive" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="OtherSettings" xml:space="preserve">
+    <value>Diğer Ayarlar</value>
+  </data>
+  <data name="RemoveBackgroundImage" xml:space="preserve">
+    <value>Arka Plan Resmini Kaldır</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Seçiniz</value>
+  </data>
+  <data name="Sync" xml:space="preserve">
+    <value>Eşzamanlama</value>
+  </data>
+  <data name="Synchronizing" xml:space="preserve">
+    <value>Eşzamanlanıyor</value>
+  </data>
+  <data name="BackgroundColorChangeSuccess" xml:space="preserve">
+    <value>Arka Plan Rengi Başarıyla Değiştirildi</value>
+  </data>
+  <data name="GeneralSettings" xml:space="preserve">
+    <value>Genel Ayarlar</value>
+  </data>
+  <data name="SelectBackgroundColor" xml:space="preserve">
+    <value>Arka Plan Rengi Seçiniz</value>
+  </data>
+  <data name="ArtistOrderBy" xml:space="preserve">
+    <value>Sanatçı Sıralama Türü</value>
+  </data>
+  <data name="ArtistOrderTypeChangeSuccess" xml:space="preserve">
+    <value>Sanatçı Sıralama Türü Başarıyla Değiştirildi</value>
+  </data>
+  <data name="ArtistSettings" xml:space="preserve">
+    <value>Sanatçı Ayarları</value>
+  </data>
+  <data name="AlbumOrderBy" xml:space="preserve">
+    <value>Albüm Sıralama Türü</value>
+  </data>
+  <data name="AlbumOrderTypeChangeSuccess" xml:space="preserve">
+    <value>Albüm Sıralama Türü Başarıyla Değiştirildi</value>
+  </data>
+  <data name="CategoryOrderTypeChangeSuccess" xml:space="preserve">
+    <value>Kategori Sıralama Türü Başarıyla Değiştirildi</value>
+  </data>
+  <data name="ArtistOrderStyle" xml:space="preserve">
+    <value>Sanatçı Sıralama Şekli</value>
+  </data>
+  <data name="ArtistOrderStyleChangeSuccess" xml:space="preserve">
+    <value>Sanatçı Sıralama Şekli Başarıyla Değiştirildi</value>
+  </data>
+  <data name="AlbumOrderStyle" xml:space="preserve">
+    <value>Albüm Sıralama Şekli</value>
+  </data>
+  <data name="AlbumOrderStyleChangeSuccess" xml:space="preserve">
+    <value>Albüm Sıralama Şekli Başarıyla Değiştirildi</value>
+  </data>
+  <data name="CategoryOrderStyleChangeSuccess" xml:space="preserve">
+    <value>Kategori Sıralama Şekli Başarıyla Değiştirildi</value>
+  </data>
+  <data name="AddAlbum" xml:space="preserve">
+    <value>Albüm Ekle</value>
+  </data>
+  <data name="ArtistDeleteSuccess" xml:space="preserve">
+    <value>Sanatçı Başarıyla Silindi</value>
+  </data>
+  <data name="ArtistNameChangeSuccess" xml:space="preserve">
+    <value>Sanatçı Adı Başarıyla Değiştirildi</value>
+  </data>
+  <data name="AlbumList" xml:space="preserve">
+    <value>Albüm Listesi</value>
+  </data>
+  <data name="DeleteArtist" xml:space="preserve">
+    <value>Sanatçı Sil</value>
+  </data>
+  <data name="DeleteArtistQuestion" xml:space="preserve">
+    <value>Sanatçıyı Bütün İçeriği İle Birlikte Silmek İstediğinize Emin Misiniz?</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Yazı Tipi</value>
+  </data>
+  <data name="FontFamily" xml:space="preserve">
+    <value>Yazı Tipi Ailesi</value>
+  </data>
+  <data name="FontFamilyChangeSuccess" xml:space="preserve">
+    <value>Yazı Tipi Ailesi Başarıyla Değiştirildi</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Yazı Tipi Boyutu</value>
+  </data>
+  <data name="FontSizeChangeSuccess" xml:space="preserve">
+    <value>Yazı Tipi Boyutu Başarıyla Değiştirildi</value>
+  </data>
+  <data name="SelectFontFamily" xml:space="preserve">
+    <value>Yazı Tipi Ailesi Seçiniz</value>
+  </data>
+  <data name="SelectFontSize" xml:space="preserve">
+    <value>Yazı Tipi Boyutu Seçiniz</value>
+  </data>
+  <data name="AlbumRating" xml:space="preserve">
+    <value>Albüm Puanı</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="SendWithApp" xml:space="preserve">
+    <value>Awesome Music Uygulaması İle Gönderildi</value>
+  </data>
+  <data name="SendWithMail" xml:space="preserve">
+    <value>Mail İle Gönder</value>
+  </data>
+  <data name="SendWithSMS" xml:space="preserve">
+    <value>SMS İle Gönder</value>
+  </data>
+  <data name="ShareAlbum" xml:space="preserve">
+    <value>Albümü Paylaş</value>
+  </data>
+  <data name="AlbumSaveSuccess" xml:space="preserve">
+    <value>Albüm Başarıyla Kaydedildi</value>
+  </data>
+  <data name="AlbumNameMustBe" xml:space="preserve">
+    <value>En Az Albüm Adı Girmek Zorundasınız</value>
+  </data>
+  <data name="AlbumDeleteSuccess" xml:space="preserve">
+    <value>Albüm Başarıyla Silindi</value>
+  </data>
+  <data name="DeleteAlbum" xml:space="preserve">
+    <value>Albümü Sil</value>
+  </data>
+  <data name="DeleteAlbumQuestion" xml:space="preserve">
+    <value>Albümü Silmek İstediğinize Emin Misiniz?</value>
+  </data>
+  <data name="AboutTheApp" xml:space="preserve">
+    <value>Uygulama Hakkında</value>
+  </data>
+  <data name="AboutTheAppText" xml:space="preserve">
+    <value>Tekrardan merhabalar. Müzik dinlemek benim için bir hobiden daha fazlası olmuştur her zaman. Bu yüzden Awesome Library uygulamasını yazdıktan sonra dinlediğim müziklerle ilgili olarak albüm kritiği yapabileceğim, puanlama yapabileceğim ve sosyal medya ayağı olan bir uygulama yazmak istedim. Dikkat ettiyseniz uygulama işlevsellik ve görsellik olarak Awesome Library'ye benzemektedir. Daha önce yazdığım iki uygulamada edindiğim tecrübeleri bu uygulamada gerçekleştirdim. Umarım beğenirsiniz. İstek, şikayet ve diğer türden iletişim için coderserdar@outlook.com adresine mail atabilirsiniz. Uygulamayı değerlendirirseniz oldukça minnettar kalırım. Sevgiler, saygılar, esen kalın...</value>
+  </data>
+  <data name="AboutTheAwesomeMusic" xml:space="preserve">
+    <value>Awesome Music Hakkında</value>
+  </data>
+  <data name="ContactWithUs" xml:space="preserve">
+    <value>İletişime Geç</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Değerlendir</value>
+  </data>
+  <data name="SearchCompleted" xml:space="preserve">
+    <value>Arama Tamamlandı</value>
+  </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value>Arama Sonuçları</value>
+  </data>
+  <data name="SearchTrimFault" xml:space="preserve">
+    <value>Arama Parametresi Girmek Zorundasınız</value>
+  </data>
+  <data name="ArtistAlreadySameCategory" xml:space="preserve">
+    <value>Sanatçı Zaten Bu Kategoridedir</value>
+  </data>
+  <data name="ArtistCategoryAddSuccess" xml:space="preserve">
+    <value>Sanatçıya Kategori Başarıyla Eklendi</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>Ayarları Sıfırla</value>
+  </data>
+  <data name="SuccessfulResetSettings" xml:space="preserve">
+    <value>Arka Plan Ayarları Başarıyla Sıfırlandı</value>
+  </data>
+  <data name="SyncOnOneFile" xml:space="preserve">
+    <value>Hepsini Tek Dosyada Birleştir</value>
+  </data>
+  <data name="MostListenArtist" xml:space="preserve">
+    <value>En Çok Dinlediğiniz Sanatçı</value>
+  </data>
+  <data name="MostListenCategory" xml:space="preserve">
+    <value>En Çok Dinlediğiniz Kategori</value>
+  </data>
+  <data name="MostListenLabel" xml:space="preserve">
+    <value>En Çok Dinlediğiniz Şirket</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>İstatistikler</value>
+  </data>
+  <data name="TotalAlbumCount" xml:space="preserve">
+    <value>Dinlediğiniz Albüm Sayısı</value>
+  </data>
+  <data name="Japanese" xml:space="preserve">
+    <value>Japonca</value>
+  </data>
+  <data name="BestAlbum" xml:space="preserve">
+    <value>En İyi Albüm</value>
+  </data>
+  <data name="WorstAlbum" xml:space="preserve">
+    <value>En Kötü Albüm</value>
+  </data>
+  <data name="BestSong" xml:space="preserve">
+    <value>En İyi Şarkı</value>
+  </data>
+  <data name="SongCount" xml:space="preserve">
+    <value>Şarkı Sayısı</value>
+  </data>
+  <data name="Sanskrit" xml:space="preserve">
+    <value>Sanskritçe</value>
+  </data>
+  <data name="Thai" xml:space="preserve">
+    <value>Tay Dili</value>
+  </data>
+</root>

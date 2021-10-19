@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="en-US" />
+  <Languages xmlns="">
+    <Language code="ar" />
+    <Language code="zh" />
+    <Language code="en" />
+    <Language code="fr" />
+    <Language code="de" />
+    <Language code="it" />
+    <Language code="ja" />
+    <Language code="fa" />
+    <Language code="ru" />
+    <Language code="tr" />
+    <Language code="fa-IR" />
+    <Language code="sa" />
+    <Language code="th" />
+  </Languages>
+  <App xmlns="" ProductID="{605ba82b-cc3e-4e2a-8055-aa09e00a3752}" Title="Awesome Music" RuntimeType="Silverlight" Version="1.0.0.1" Genre="apps.normal" Author="CoderSerdar" Description="Best Music App Ever" Publisher="CoderSerdar" PublisherID="{a663d7fa-29a0-460c-b030-d2b10e1d9a84}">
+    <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="AwesomeMusicToken" TaskName="_default">
+        <TemplateFlip>
+          <SmallImageURI IsRelative="true" IsResource="false">Assets\AwesomeMusicSmallIcon.png</SmallImageURI>
+          <Count>0</Count>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\AwesomeMusicMediumIcon.png</BackgroundImageURI>
+          <Title>AwesomeMusic</Title>
+          <BackContent>
+          </BackContent>
+          <BackBackgroundImageURI>
+          </BackBackgroundImageURI>
+          <BackTitle>
+          </BackTitle>
+          <LargeBackgroundImageURI IsRelative="true" IsResource="false">Assets\AwesomeMusicLargeIcon.png</LargeBackgroundImageURI>
+          <LargeBackContent />
+          <LargeBackBackgroundImageURI IsRelative="true" IsResource="false">
+          </LargeBackBackgroundImageURI>
+          <DeviceLockImageURI>
+          </DeviceLockImageURI>
+          <HasLarge>True</HasLarge>
+        </TemplateFlip>
+      </PrimaryToken>
+    </Tokens>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>
