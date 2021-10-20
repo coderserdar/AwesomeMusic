@@ -10,8 +10,7 @@ In this app you can;
  - Add/update/delete album info
  - Detailed search by category, artist, album name or album note
  - Send album info via E-Mail or SMS
- - Search notes by name and content
- - Gather statistical info about names
+ - Gather statistical info about albums
  - Set application language (Application supports **Turkish**, **English**, **German**, **French**, **Italian**, **Chinese**, **Arabic**, **Persian**, **Russian**, **Spanish**, **Portuguese**, **Sanskrit**, **Thai**)
  - Take backup and restore with OneDrive account
  - And the other functionalities like
