@@ -1,5 +1,7 @@
 # Awesome Music
 
+![GitHub stars](https://img.shields.io/github/stars/coderserdar/AwesomeMusic?style=social) ![GitHub forks](https://img.shields.io/github/forks/coderserdar/AwesomeMusic?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/coderserdar/AwesomeMusic?style=social) ![GitHub repo size](https://img.shields.io/github/repo-size/coderserdar/AwesomeMusic?style=plastic) ![GitHub language count](https://img.shields.io/github/languages/count/coderserdar/AwesomeMusic?style=plastic) ![GitHub top language](https://img.shields.io/github/languages/top/coderserdar/AwesomeMusic?style=plastic) ![GitHub last commit](https://img.shields.io/github/last-commit/coderserdar/AwesomeMusic?color=red&style=plastic)
+
 This is a **Windows Phone** app which is used to *store information about the albums you listen* like RateYourMusic or Pitchfork.
 This app is written in **C#** programming language and in **Visual Studio 2015**. 
 
